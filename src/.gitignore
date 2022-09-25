@@ -1,0 +1,5 @@
+builtins.o
+commands.o
+io_helpers.o
+mysh.o
+variables.o
