@@ -1,0 +1,9 @@
+# This project is written in C and uses Make for building.
+# The following tools are required to build and run the shell:
+
+# GCC compiler
+# Make build tool
+# (Optional) AddressSanitizer for debugging
+
+gcc
+make 

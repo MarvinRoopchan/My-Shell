@@ -1,4 +1,51 @@
-To run Shell navigate to src folder then run the following command on the command line
+# My Shell (mysh)
 
-make
+A simple Unix-like shell implemented in C. This project demonstrates command parsing, built-in commands, variable management, and I/O handling.
+
+## Features
+- Custom shell prompt
+- Built-in commands (e.g., `cd`, `exit`)
+- Command execution
+- Variable management
+- Input/output helpers
+
+## Getting Started
+
+### Prerequisites
+- GCC (GNU Compiler Collection)
+- Make
+- (Optional) AddressSanitizer for debugging
+
+### Build Instructions
+1. Open a terminal and navigate to the `src` directory:
+   ```sh
+   cd src
+   ```
+2. Build the shell using `make`:
+   ```sh
+   make
+   ```
+   This will produce the `mysh` executable.
+
+### Running the Shell
+After building, run the shell with:
+```sh
 ./mysh
+```
+
+## Project Structure
+- `mysh.c`         : Main entry point for the shell
+- `builtins.c/h`   : Built-in command implementations
+- `commands.c/h`   : Command parsing and execution
+- `io_helpers.c/h` : Input/output helper functions
+- `variables.c/h`  : Shell variable management
+- `Makefile`       : Build instructions
+
+## Cleaning Up
+To remove compiled files and the executable, run:
+```sh
+make clean
+```
+
+## License
+This project is for educational purposes.
