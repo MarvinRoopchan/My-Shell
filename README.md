@@ -46,6 +46,3 @@ To remove compiled files and the executable, run:
 ```sh
 make clean
 ```
-
-## License
-This project is for educational purposes. 
