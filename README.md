@@ -1,6 +1,6 @@
 # My Shell (mysh)
 
-A simple Unix-like shell implemented in C. This project demonstrates command parsing, built-in commands, variable management, and I/O handling.
+A simple Linux-like shell implemented in C. This project demonstrates command parsing, built-in commands, variable management, and I/O handling.
 
 ## Features
 - Custom shell prompt
